@@ -1,0 +1,122 @@
+html{
+    background-color: white;
+}
+
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 0 10%;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: bold;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Colors */
+.container {
+    border: 2px solid #a2a2a6;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    font-size: 1.5em;
+    min-height: 100px;
+    margin: 20px auto;
+}
+
+.blue {
+    background-color: #03AED2;
+    color: #fff;
+}
+
+.lightblue {
+    background-color: #68D2E8;
+    color: #fff;
+}
+
+.yellow {
+    background-color: #FDDE55;
+    color: #fff;
+}
+
+.lightyellow {
+    background-color: #FEEFAD;
+    color: #fff;
+}
+
+/* Fonts */
+.font-container {
+    width: 100%;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.ubuntu-sans {
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+}
+
+.barlow-condensed {
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+/* Text Styles */
+.text-panel h1 {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.text-panel h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text-panel p {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
